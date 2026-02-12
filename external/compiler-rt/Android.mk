@@ -384,5 +384,5 @@ LOCAL_MULTILIB := both
 LOCAL_ADDRESS_SANITIZER := false
 include $(BUILD_HOST_SHARED_LIBRARY)
 # Build asan, lsan, etc.
-include $(call all-makefiles-under,$(LOCAL_PATH)/lib)
+# include $(call all-makefiles-under,$(LOCAL_PATH)/lib)
 endif
